@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=AK4 Digital Display
+Comment=AK4 Digital Display USB Cooler Controller
+Exec=/usr/local/bin/ak4_tray
+Icon=computer
+Terminal=false
+Categories=System;HardwareSettings;Utility;
+StartupNotify=false
+X-KDE-autostart-after=panel
+

@@ -1,0 +1,22 @@
+# Original manufacturer installer (54 MB proprietary binary)
+AK Digital Display*.exe
+
+# Compiled binary in root folder (built by make)
+/ak4_tray
+*.o
+*.obj
+*.rpm
+
+# Python / reverse engineering temp files
+.venv/
+__pycache__/
+*.pyc
+*.pcapng
+*.csv
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,13 @@
+[Unit]
+Description=AK4 Digital Display USB Cooler Service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ak4_tray --headless
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
+
